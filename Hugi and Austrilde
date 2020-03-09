@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace march9Inclass
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            // Get values from this string.
+            Console.WriteLine("Enter string:");
+            string value = Console.ReadLine();
+            char first = value[0];
+            char second = value[1];
+            char last = value[value.Length - 1];
+
+            // Write chars.
+
+            Console.Write("First char: ");
+            Console.WriteLine(first);
+            Console.Write("Second char: ");
+            Console.WriteLine(second);
+            Console.Write("Last char: ");
+            Console.WriteLine(last);
+
+            Console.ReadKey();
+
+        }
+    }
+}
